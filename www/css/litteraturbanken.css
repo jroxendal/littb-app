@@ -1,0 +1,42 @@
+body{
+    background-color: #7A1400;
+    font-family: "Requiem Display A", "Requiem Display B", georgia, serif;
+  }
+  #logo {
+    min-height: 80px;
+    width: 90px;
+    background: url(logo.svg) no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .book{
+    margin: auto;
+    margin-bottom: 0.50em;
+    width: 95%;
+
+  }
+  .search{
+    width: 90%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  .search input,
+  .search .button {
+    border: 1px solid #777676;
+  }
+  .search .button {
+    background: #E7DF9A;
+    color: #7A1400;
+  }
+  .card-header {
+    background-color: #E7DF9A !important;
+    color: #4A4A4A;
+  }
+  .card-header a {
+    color: #7A1400;
+  }
+  .card-header-title .fa-book {
+    margin-right: 0.5em;
+  }

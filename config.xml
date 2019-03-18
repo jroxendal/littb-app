@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="se.litteraturbanken.epub" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Litteraturbanken ePub</name>
+    <description>
+        App for searching and download ePubs
+    </description>
+    <platform name="android" />
+    <author email="info@litteraturbanken.se" href="https://litteraturbanken.se">
+        Litteraturbanken
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="https://litteraturbanken.se/*" />
+    <allow-intent href="*://litteraturbanken.se/*" />
+    <access origin="*://litteraturbanken.se/" launch-external="yes" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <engine name="android" spec="^7.1.2" />
+
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-file-downloader" spec="^0.4.0" />
+    <engine name="android" spec="^7.1.2" />
+</widget>
